@@ -10,7 +10,7 @@ export default function NewTabBt() {
           <Tabs
             key={variant}
             aria-label="Tabs variants"
-            variant={variant}
+            // variant={variant}
             classNames={{
               tab: "snap-start min-w-[140px] sm:min-w-[150px] lg:w-[159px] h-[42px] px-4 py-2 sm:py-2.5 lg:py-3 rounded-full text-[16px] sm:text-[17px] lg:text-[18px] leading-[26px] font-medium text-tabtextcol transition-all font-futura flex items-center justify-center",
               cursor: "bg-gradient-to-r from-[#74C03C] to-[#0AA1CA] text-white rounded-full",
